@@ -6,7 +6,7 @@ namespace Hazel
 	{
 	public:
 		Application();
-		~Application();
+		virtual ~Application();
 
 		void Run();
 	};
